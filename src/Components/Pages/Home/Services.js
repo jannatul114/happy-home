@@ -17,11 +17,9 @@ const Services = () => {
                             </div>
                         </figure>
                         <div class="card-body items-center text-center">
-                            <h2 class="card-title">Shoes!</h2>
+                            <h2 class="card-title">Office Interior Design</h2>
                             <p>If a dog chews shoes whose shoes does he choose?</p>
-                            <div class="card-actions">
-                                <button class="btn btn-primary">Buy Now</button>
-                            </div>
+
                         </div>
                     </div>
                     <div class="card w-96 bg-base-100 shadow-xl">
@@ -31,11 +29,9 @@ const Services = () => {
                             </div>
                         </figure>
                         <div class="card-body items-center text-center">
-                            <h2 class="card-title">Shoes!</h2>
+                            <h2 class="card-title">Showroom Design</h2>
                             <p>If a dog chews shoes whose shoes does he choose?</p>
-                            <div class="card-actions">
-                                <button class="btn btn-primary">Buy Now</button>
-                            </div>
+
                         </div>
                     </div>
                     <div class="card w-96 bg-base-100 shadow-xl min-h-80">
@@ -45,18 +41,16 @@ const Services = () => {
                             </div>
                         </figure>
                         <div class="card-body items-center text-center">
-                            <h2 class="card-title">Shoes!</h2>
+                            <h2 class="card-title">Residential/ Home</h2>
                             <p>If a dog chews shoes whose shoes does he choose?</p>
-                            <div class="card-actions">
-                                <button class="btn btn-primary">Buy Now</button>
-                            </div>
+
                         </div>
                     </div>
 
                 </div>
             </div>
             <div className='flex justify-center mt-3'>
-                <button className='my-6 rounded-none btn btn-primary'>Explore More </button>
+                <button className='my-6 rounded-none btn btn-primary text-white'>Explore More </button>
 
             </div>
         </div>

@@ -11,13 +11,9 @@ module.exports = {
           secondary: "#F6F6F6",
           netural: "#F4F7FC",
           "base-100": "#FFFFFF",
-
-          info: "#3ABFF8",
-
+          info: "#F4F7FC",
           success: "#36D399",
-
           warning: "#FBBD23",
-
           error: "#F87272",
         }
       }

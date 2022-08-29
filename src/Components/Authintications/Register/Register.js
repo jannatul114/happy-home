@@ -8,6 +8,7 @@ import { useCreateUserWithEmailAndPassword, useSignInWithEmailAndPassword, useSi
 import auth from '../../../firebase.init';
 import { toast } from 'react-toastify';
 import { useEffect } from 'react';
+import Loading from '../../Shared/Loading/Loading';
 
 
 const Registar = () => {
@@ -38,8 +39,8 @@ const Registar = () => {
         navigate('/home')
         console.log(user || gUser)
     }
-    if (loading || updating) {
-        toast.info("loading...")
+    if (loading || updating || gLoading) {
+        return <Loading />
     }
 
 

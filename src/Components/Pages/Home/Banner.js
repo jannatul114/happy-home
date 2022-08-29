@@ -10,7 +10,7 @@ const Banner = () => {
                         <p class="py-6 max-w-xl">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
                         <button class="btn btn-primary text-white mb-5">Booking</button>
                     </div>
-                    <img src={banner} class="max-w-sm lg:max-w-lg shadow-2xl" />
+                    {<img src={banner} class="max-w-sm lg:max-w-lg shadow-2xl" /> ? <img src={banner} class="max-w-sm lg:max-w-lg shadow-2xl" /> : <img src="https://dev-to-uploads.s3.amazonaws.com/i/gqmymopg8bignlcfhvcx.gif" class="max-w-sm lg:max-w-lg shadow-2xl" />}
 
                 </div>
             </div>
